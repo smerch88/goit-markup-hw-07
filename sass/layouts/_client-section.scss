@@ -1,4 +1,9 @@
-.clients .client-link {
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients__link {
   width: 170px;
   height: 92px;
   padding: 0%;
@@ -16,58 +21,44 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients .client-link:hover,
-.clients .client-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   border-color: var(--blueColor);
   color: var(--blueColor);
 }
 
-.client-icon {
+.clients__link-icon {
   color: currentColor;
 }
 
-.client-icon {
+.clients__link-icon {
   width: 106px;
   height: 60px;
   fill: currentColor;
 }
 
-.client-icon:hover {
+.clients__link-icon:hover {
   fill: var(--blueColor);
 }
 
-.mail-icon {
-  fill: currentColor;
-  margin-right: 10px;
-}
-
-.phone-icon {
-  fill: currentColor;
-  margin-right: 10px;
-}
-
-.social-network {
-  margin-top: 16px;
-
+.clients__items {
   display: flex;
-  justify-content: center;
 }
 
-.social-network .item2:not(:last-child) {
-  margin-right: 10px;
+.clients__items-item {
+  width: 270px;
+  margin-right: 30px;
 }
 
-.social-box {
-  display: flex;
-  align-items: center;
-  color: var(--iconColor);
-  background-color: var(--whiteColor);
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  outline: none;
+.clients__items-item:last-child {
+  margin-right: 0px;
+}
 
-  transition-property: color, background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.clients__items--title-section {
+  text-align: center;
+  margin-bottom: 50px;
+
+  color: var(--headTextColor);
+  line-height: 1.17;
+  font-size: 36px;
 }

@@ -149,3 +149,39 @@ footer .contacts a:hover {
   background: var(--blueColor);
   border-radius: 2px;
 }
+
+.mail-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.phone-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.social-network {
+  margin-top: 16px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.social-network .item2:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-box {
+  display: flex;
+  align-items: center;
+  color: var(--iconColor);
+  background-color: var(--whiteColor);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  outline: none;
+
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
