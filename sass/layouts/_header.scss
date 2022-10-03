@@ -1,0 +1,36 @@
+.page-header {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--whiteColor);
+  border-bottom: 1px solid var(--shadowColor);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo {
+  font-size: 26px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--blueColor);
+}
+
+.page-header .logo .logo-link {
+  color: var(--blueColor);
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+}
+
+header .current-page a,
+header .current-page a:link,
+header .current-page a:visited {
+  color: var(--blueColor);
+}

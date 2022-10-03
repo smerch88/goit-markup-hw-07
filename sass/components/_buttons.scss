@@ -1,0 +1,105 @@
+.order-button {
+  display: inline-block;
+  padding: 10px 32px;
+
+  background: var(--blueColor);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--whiteColor);
+  border: none;
+  cursor: pointer;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-button:hover,
+.order-button:focus {
+  background-color: var(--backgroundButtonColor);
+}
+
+.order-button:hover,
+.order-button:focus {
+  background-color: var(--backgroundButtonColor);
+}
+
+.filter-button {
+  padding: 6px 22px;
+
+  background: var(--backgroundGreyColor);
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  color: var(--headTextColor);
+  font-weight: 500;
+  font-family: "Roboto";
+  border-radius: 4px;
+
+  transition-property: color, background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  background: var(--blueColor);
+  color: var(--whiteColor);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.submit-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--blueColor);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+
+  border-radius: 4px;
+  width: 200px;
+  border: 0;
+
+  padding: 10px 28px;
+  gap: 10px;
+  color: var(--whiteColor);
+
+  transition-property: background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  cursor: pointer;
+}
+
+.submit-button:hover,
+.submit-button:focus {
+  background-color: var(--backgroundButtonColor);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-form .submit-button {
+  margin: 0 auto;
+  margin-top: 20px;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  line-height: 1.9;
+}

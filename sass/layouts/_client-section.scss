@@ -1,0 +1,73 @@
+.clients .client-link {
+  width: 170px;
+  height: 92px;
+  padding: 0%;
+  background: var(--whiteColor);
+  border: 1px solid var(--iconColor);
+  border-radius: 4px;
+  display: flex;
+  outline: none;
+  align-items: center;
+  justify-content: center;
+  color: var(--iconColor);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients .client-link:hover,
+.clients .client-link:focus {
+  border-color: var(--blueColor);
+  color: var(--blueColor);
+}
+
+.client-icon {
+  color: currentColor;
+}
+
+.client-icon {
+  width: 106px;
+  height: 60px;
+  fill: currentColor;
+}
+
+.client-icon:hover {
+  fill: var(--blueColor);
+}
+
+.mail-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.phone-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.social-network {
+  margin-top: 16px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.social-network .item2:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-box {
+  display: flex;
+  align-items: center;
+  color: var(--iconColor);
+  background-color: var(--whiteColor);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  outline: none;
+
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
