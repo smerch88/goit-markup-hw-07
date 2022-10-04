@@ -176,6 +176,10 @@ footer .contacts a:hover {
   font-weight: 500;
 }
 
+.contacts a:hover {
+  color: var(--blueColor);
+}
+
 .contacts a:visited {
   color: var(--textColor);
 }
@@ -1138,6 +1142,11 @@ footer .contacts a:link {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   line-height: 1.71;
+}
+
+footer .contacts a:hover,
+footer .contacts a:focus {
+  color: var(--blueColor);
 }
 
 .page-footer .logo .logo-link {

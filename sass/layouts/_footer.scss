@@ -16,6 +16,11 @@ footer .contacts a:link {
   line-height: 1.71;
 }
 
+footer .contacts a:hover,
+footer .contacts a:focus {
+  color: var(--blueColor);
+}
+
 .page-footer .logo .logo-link {
   color: var(--blueColor);
 }
